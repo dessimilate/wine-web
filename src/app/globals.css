@@ -1,0 +1,148 @@
+@import 'tailwindcss';
+
+@utility translate-center {
+	--translate-x: calc((100vw - 100%) / 2);
+	--translate-y: calc((100vh - 100%) / 2);
+	translate: var(--translate-x) var(--translate-y);
+}
+
+@utility translate-x-center {
+	--translate-x: calc((100vw - 100%) / 2);
+	translate: var(--translate-x) 0;
+}
+
+@utility translate-y-center {
+	--translate-y: calc((100vh - 100%) / 2);
+	translate: 0 var(--translate-y);
+}
+
+@layer utilities {
+	.no-scrollbar::-webkit-scrollbar {
+		display: none;
+	}
+	.no-scrollbar {
+		-ms-overflow-style: none;
+		scrollbar-width: none;
+	}
+}
+
+@theme {
+	--color-main: rgb(223 217 210);
+	--color-second: rgb(0 32 91);
+	--color-second-inverted: rgb(223 185 119);
+
+	--animate-fade-in-200: fadeIn 0.2s ease-out;
+	--animate-fade-in-500: fadeIn 0.5s ease-out;
+	--animate-fade-out: fadeOut 0.2s ease-out;
+	--animate-bottom-in: bottomIn 0.7s cubic-bezier(0.49, 0.28, 0, 1) forwards;
+	--animate-noise: noise 0.2s infinite steps(1);
+
+	--shadow-center-md: 0 0 16px -7px black;
+	--drop-shadow-center-md: 0 0 14px 10px rgba(0, 0, 0, 1);
+
+	--breakpoint-*: initial;
+
+	--backdrop-inverted: url(#inverted-filter);
+}
+
+@layer utilities {
+	.liquid {
+		backdrop-filter: var(--backdrop-liquid);
+	}
+}
+
+html,
+body {
+	min-height: 100vh;
+	width: 100vw;
+	scroll-behavior: smooth;
+}
+
+body {
+	color: var(--color-second);
+	background: var(--color-main);
+	font-size: 1.5rem;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	overflow-x: hidden;
+}
+
+ul,
+ol,
+li {
+	list-style: none;
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+@keyframes fadeOut {
+	from {
+		transform: scale(1);
+		opacity: 1;
+	}
+	to {
+		transform: scale(0.85);
+		opacity: 0;
+	}
+}
+
+@keyframes bottomIn {
+	from {
+		translate: 0 100%;
+		opacity: 0;
+	}
+	to {
+		translate: 0 0;
+		opacity: 1;
+	}
+}
+
+@keyframes noise {
+	0%,
+	100% {
+		transform: translate(0, 0);
+	}
+	10% {
+		transform: translate(-5%, -5%);
+	}
+	20% {
+		transform: translate(-10%, 5%);
+	}
+	30% {
+		transform: translate(5%, -10%);
+	}
+	40% {
+		transform: translate(-5%, 15%);
+	}
+	50% {
+		transform: translate(-10%, 5%);
+	}
+	60% {
+		transform: translate(15%, 0);
+	}
+	70% {
+		transform: translate(0, 10%);
+	}
+	80% {
+		transform: translate(-15%, 0);
+	}
+	90% {
+		transform: translate(10%, 5%);
+	}
+}
+
+@custom-variant 1800 (@media (max-width: 1800px));
+@custom-variant 1600 (@media (max-width: 1600px));
+@custom-variant 1400 (@media (max-width: 1400px));
+@custom-variant 1100 (@media (max-width: 1100px));
+@custom-variant 770 (@media (max-width: 770px));
+@custom-variant 640 (@media (max-width: 640px));
+@custom-variant 560 (@media (max-width: 560px));
+@custom-variant 360 (@media (max-width: 360px));

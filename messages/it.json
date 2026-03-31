@@ -1,0 +1,78 @@
+{
+	"Sidebar": {
+		"manifesto": "Manifesto",
+		"southTyrol": "Territorio",
+		"experiences": "Esperienze",
+		"contacts": "Contatti",
+		"sliderMenu": {
+			"traditionalMethod": "Metodo Tradizionale",
+			"selection": "Selezione",
+			"classical": "Classico",
+			"title": "Wines"
+		}
+	},
+	"Home": {
+		"section1": {
+			"title": "PROGRESSIO IN TRADITIONE",
+			"description1": "Con i nostri",
+			"description2": "vini",
+			"description3": "raccontiamo",
+			"description4": "tutto ciò",
+			"description5": "che rende",
+			"description6": "eccezionale",
+			"description7": "la nostra terra,",
+			"description8": "l’Alto Adige.",
+			"description9": "Dal 1919."
+		},
+		"section2": {
+			"title1": "L'eleganza stilistica",
+			"title2": "della montagna",
+			"description1": "Affascinati dal prestigioso potenziale del Metodo Classico,",
+			"description2": "portiamo la finezza delle bollicine altoatesina verso",
+			"description3": "orizzonti ancora inesplorati.",
+			"button": "Scopri il metodo classico"
+		},
+		"section3": {
+			"title1": "Il nostro tradizionale",
+			"title2": "alto adige",
+			"description1": "Da sempre troviamo nella bellezza della nostra terra",
+			"description2": "l’ispirazione per valorizzarne la secolare tradizione vitivinicola",
+			"description3": "e creare i nostri vini.",
+			"button": "Scopri il territorio"
+		},
+		"section4": {
+			"title1": "ESPERIENZE",
+			"title2": "E OSPITALITÀ",
+			"description1": "Scopri l’autenticità, l’eleganza e gli aspetti più sorprendenti",
+			"description2": "dell’Alto Adige con i live tour, le degustazioni e gli eventi",
+			"description3": "in programma nella nostra cantina.",
+			"button": "Vieni a trovarci"
+		}
+	},
+	"Manifesto": {
+		"section1": {
+			"title1": "Manifesto",
+			"description1": "Kettmeir guarda lontano con radici profonde. Il nostro manifesto parla",
+			"description2": "del rispetto per il tempo e della forza di chi osa restando",
+			"description3": "fedele a sé stesso.",
+			"title2": "Ti accorgi",
+			"title3": "del valore delle cose",
+			"description4": "quando trovi il coraggio di metterle in discussione.",
+			"description5": "L’Alto Adige ce lo insegna, e noi dal 1919 lo mettiamo in pratica.",
+			"description6": "Con rispetto e audacia."
+		},
+		"section2": {
+			"description1": "È solo guardando le imponenti vette delle Dolomiti che possiamo cogliere le sfumature dei dolci pendii ricoperti di vigneti intorno a Caldaro.",
+			"description2": "È solo attraverso la sperimentazione enologica, caposaldo del nostro Manifesto, che possiamo tramandare il prestigio di antiche tradizioni, come quella del Metodo Classico. E renderle significative anche per la contemporaneità."
+		},
+		"section3": {
+			"title": "La nostra storia",
+			"description1": "Anno di fondazione\/n della cantina",
+			"description2": "Kettmeir inizia a produrre spumanti con il Metodo Charmat",
+			"description3": "Kettmeir Entrata a far parte di HERITA MARZOTTO WINE ESTATES",
+			"description4": "Kettmeir dà inizio alla spumantizzazione con il Metodo Classico: nasce l’Athesis Brut",
+			"description5": "Prima annata del “1919” RISERVA EXTRA BRUT, affinato sui lieviti per almeno 5 anni",
+			"description6": "Prima annata dell’Athesis Brut vincitrice del premio “BEST ITALIAN SPARKLING WINE” by CSWWC"
+		}
+	}
+}

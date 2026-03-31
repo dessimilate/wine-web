@@ -1,0 +1,69 @@
+{
+	"Sidebar": {
+		"manifesto": "Manifesto",
+		"southTyrol": "South Tyrol",
+		"experiences": "Experiences",
+		"contacts": "Contacts",
+		"sliderMenu": {
+			"traditionalMethod": "Traditional Method",
+			"selection": "Selection",
+			"classical": "Classical",
+			"title": "Wines"
+		}
+	},
+	"Home": {
+		"section1": {
+			"title": "PROGRESS IN TRADITION",
+			"description1": "With our",
+			"description2": "wines",
+			"description3": "we express",
+			"description4": "everything",
+			"description5": "that makes",
+			"description6": "exceptional",
+			"description7": "out land,",
+			"description8": "of South Typol.",
+			"description9": "Since 1919."
+		},
+		"section2": {
+			"title1": "The Stylistic Elegance",
+			"title2": "of the Mountains",
+			"description1": "Fascinated by the prestigious potential of Traditional Method",
+			"description2": "we bring the finesse of South Tyrolean",
+			"description3": "bubbles toward unexplored horizons",
+			"button": "Discover traditional method"
+		},
+		"section3": {
+			"title1": "Our traditional",
+			"title2": "South Tyrol",
+			"description1": "In the beauty of our land, we have always found",
+			"description2": "the inspiration to enhance its centuries, old winemaking",
+			"description3": "tradition and create our wines.",
+			"button": "Discover the territory"
+		},
+		"section4": {
+			"title1": "EXPERIENCES",
+			"title2": "AND HOSPITALITY",
+			"description1": "Discover the authenticity, elegance and surprising aspects",
+			"description2": "of South Tyrol with the live tours, tastings and events",
+			"description3": "scheduled in our cellar.",
+			"button": "Visit us"
+		}
+	},
+	"Manifesto": {
+		"section1": {
+			"title1": "Manifesto",
+			"description1": "Kettmeir looks to the future with deep roots. Our manifesto speaks of",
+			"description2": "our respect for time and the strength of those who dare",
+			"description3": "to remain true to themselves.",
+			"title2": "You realise",
+			"title3": "the value of things",
+			"description4": "when you find the courage to question them.",
+			"description5": "South Tyrol taught us this, and we have been putting it into practice since 1919.",
+			"description6": "With respect and boldness."
+		},
+		"section2": {
+			"description1": "It is only by looking at the imposing peaks of the Dolomites that we can grasp the nuances of the gentle vineyard-covered slopes around Caldaro.",
+			"description2": "Only through oenological experimentation, the cornerstone of our Manifesto, can we carry forward the prestige of ancient traditions like the Traditional Method. And make them meaningful for contemporary times as well."
+		}
+	}
+}
