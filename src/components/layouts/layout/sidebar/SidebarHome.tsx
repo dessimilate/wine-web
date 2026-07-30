@@ -1,4 +1,4 @@
-import { NextComponentType } from '@/types/next-component.type'
+import Link from '@/components/ui/Link'
 
 import { URLS } from '@/config/urls.config'
 
@@ -7,9 +7,8 @@ import { useIsMixNormalStore } from '@/store/isMixNormal'
 import { cn } from '@/utils/cn'
 
 import Logo from '&/public/svg/logo.svg'
-import Link from '@/components/ui/Link'
 
-const SidebarHomeButton: NextComponentType = () => {
+const SidebarHomeButton = () => {
 	const isMixNormal = useIsMixNormalStore(state => state.isMixNormal)
 
 	return (

@@ -3,8 +3,6 @@
 import { useLocale } from 'next-intl'
 import { useState, useTransition } from 'react'
 
-import { NextComponentType } from '@/types/next-component.type'
-
 import { locales } from '@/config/locales.constant'
 
 import { cn } from '@/utils/cn'
@@ -13,7 +11,7 @@ import Arrow from '&/public/svg/arrow.svg'
 import { SidebarElement } from './SidebarElement'
 import { usePathname, useRouter } from '@/i18n/routing'
 
-const SidebarLangChange: NextComponentType = ({}) => {
+const SidebarLangChange = () => {
 	const currentLocale = useLocale()
 	const router = useRouter()
 	const pathname = usePathname()

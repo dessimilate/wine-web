@@ -11,6 +11,33 @@
 			"title": "Wines"
 		}
 	},
+	"Footer": {
+		"address": "Via delle Cantine, 4\n39052 Caldaro (BZ)\nItaly",
+		"email": "Updates and exclusive content from the world\nof Kettmeir directly to your inbox.",
+		"copyright": "© 2026 KETTMEIR SpA sole shareholder HERITA MARZOTTO WINES SpA - Registered office FOSSALTA DI\nPORTOGRUARO (VE) VIA ITA MARZOTTO 8 CAP 30025 - Tax code and registration number in the Registry\nCompanies 00717760243 - VAT number 00884040270",
+		"links": {
+			"home": "Home",
+			"manifesto": "Manifesto",
+			"southTyrol": "South Tyrol",
+			"traditionalMethod": "Traditional Method",
+			"selection": "Selection",
+			"classical": "Classical",
+			"experiences": "Experiences",
+			"contacts": "Contacts"
+		},
+		"privacyRoles": {
+			"privacyPolicy": "privacy policy",
+			"cookiePolicy": "cookie policy",
+			"updateCookiePreferences": "update cookie preferences"
+		},
+		"socialMedia": {
+			"facebook": "facebook",
+			"instagram": "instagram"
+		}
+	},
+	"LinksComponent": {
+		"title": "CONTINUE VISIT"
+	},
 	"Home": {
 		"section1": {
 			"title": "PROGRESS IN TRADITION",
@@ -21,7 +48,7 @@
 			"description5": "that makes",
 			"description6": "exceptional",
 			"description7": "out land,",
-			"description8": "of South Typol.",
+			"description8": "of South Tyrol.",
 			"description9": "Since 1919."
 		},
 		"section2": {
@@ -51,19 +78,198 @@
 	},
 	"Manifesto": {
 		"section1": {
-			"title1": "Manifesto",
+			"title": "Manifesto",
 			"description1": "Kettmeir looks to the future with deep roots. Our manifesto speaks of",
 			"description2": "our respect for time and the strength of those who dare",
-			"description3": "to remain true to themselves.",
-			"title2": "You realise",
-			"title3": "the value of things",
-			"description4": "when you find the courage to question them.",
-			"description5": "South Tyrol taught us this, and we have been putting it into practice since 1919.",
-			"description6": "With respect and boldness."
+			"description3": "to remain true to themselves."
 		},
 		"section2": {
-			"description1": "It is only by looking at the imposing peaks of the Dolomites that we can grasp the nuances of the gentle vineyard-covered slopes around Caldaro.",
-			"description2": "Only through oenological experimentation, the cornerstone of our Manifesto, can we carry forward the prestige of ancient traditions like the Traditional Method. And make them meaningful for contemporary times as well."
+			"title1": "You realize",
+			"title2": "the value of things",
+			"titleDescription1": "when you find the courage to question them.",
+			"titleDescription2": "South Tyrol taught us this, and we have been putting it into practice since 1919.",
+			"titleDescription3": "With respect and boldness.",
+			"description1": [
+				"It is only by looking at the imposing peaks of the Dolomites that we can grasp the nuances of the gentle vineyard-covered slopes around Caldaro."
+			],
+			"description1types": "n",
+			"description2": [
+				"Only through oenological experimentation, the cornerstone of our Manifesto, can we carry forward the prestige of ancient traditions like the Traditional Method. And make them meaningful for contemporary times as well."
+			],
+			"description2types": "n"
+		},
+		"section3": {
+			"title1": "Our history",
+			"milestones": [
+				{
+					"date": "1919",
+					"description": "Year of foundation of the cellar"
+				},
+				{
+					"date": "1964",
+					"description": "Kettmeir starts production of sparkling wines with the Charmat Method"
+				},
+				{
+					"date": "1986",
+					"description": "Kettmeir joins HERITA MARZOTTO WINE ESTATES"
+				},
+				{
+					"date": "1992",
+					"description": "Kettmeir begins sparkling wine-making with the Traditional Method: Athesis rut is born"
+				},
+				{
+					"date": "2011",
+					"description": "First vintage of “1919” RISERVA EXTRA BRUT, aged on the lees for at least 5 years"
+				},
+				{
+					"date": "2018",
+					"description": "First vintage of Athesis Brut, winner of the “BEST ITALIAN SPARKLING WINE” by CSWWC"
+				}
+			]
+		},
+		"section4": {
+			"title1": "FROM THE PEAKS",
+			"title2": "TO THE CELLAR",
+			"description1": [
+				"We have always been ",
+				"witnesses ",
+				"to the deep wine culture of South Tyrol and the favorable climatic conditions of this land."
+			],
+			"description1types": "n,i,n",
+			"description2": [
+				"Today, ours is an avant-garde company, capable of valorizing indigenous vines both in the valley and at altitude, producing wines that are ",
+				"aromatic, elegant ",
+				"and ",
+				"true to their origin."
+			],
+			"description2types": "n,i,n,i"
+		},
+		"section5": {
+			"link1": "south tyrol",
+			"link2": "traditional method"
+		}
+	},
+	"SouthTyrol": {
+		"section1": {
+			"title": "South Tyrol",
+			"description1": "Discover the authenticity, elegance, and hidden gems of South Tyrol",
+			"description2": "through tours, tastings, and local events.",
+			"description3": "Experience the very best of our region, and the refined wines that define",
+			"description4": "South Tyrol."
+		},
+		"section2": {
+			"title1": "nuances of a unique",
+			"title2": "identity",
+			"description1": [
+				"In the shadow of the majestic Dolomites, a UNESCO World Heritage Site, the resilient spirit of mountain life takes shape. Here, ",
+				"nature is vast, rich ",
+				"and ",
+				"ever-changing, ",
+				"shaping daily life in countless ways."
+			],
+			"description1types": "n,i,n,i,n",
+			"description2": [
+				"With vineyards flourishing at varying altitudes, South Tyrol is a land rooted in agriculture, and even more passionately, in winemaking."
+			],
+			"description2types": "n"
+		},
+		"section3": {
+			"title1": "explore",
+			"title2": "our land",
+			"description1": "Discover the vineyards",
+			"description2": "where our grapes grow.",
+
+			"button1": "all the vineyards",
+
+			"button2": "pochi di salorno",
+			"button2Title": "Maso Reiner",
+			"button2Subtitle": "pochi di salorno (BZ)",
+			"button2Description": "The soils are calcareous, richly structured, with a good clay and organic substance content. It is on this slope that the Pinot Noir, Chardonnay and Pinot Grigio grapes are grown.",
+			"button2Altitude": "350 – 500 above sea level",
+			"button2Grapes": "Pinot Noir,Chardonnay,Pinot Grigio",
+			"button2Image": "/south-tyrol/section3/image1.webp",
+			"button2IsTextLeft": "0",
+
+			"button3": "castelvecchio/caldaro",
+			"button3Title": "Pinot Bianco",
+			"button3Subtitle": "Castelvecchio (BZ)",
+			"button3Description": "Castelvecchio is one of the highest areas in the municipality of Caldaro. Located at 700 metres above sea level, it stands out for its steep slopes, porphyry-rich soils and eastern exposure. Here, Pinot Bianco vineyards are cultivated for the Athesis Brut Metodo Classico,while the vineyards at higher altitudes give rise to the refined Athesis Pinot Bianco.",
+			"button3Altitude": "700 above sea level",
+			"button3Grapes": "Pinot Blanc",
+			"button3Image": "/south-tyrol/section3/image2.webp",
+			"button3IsTextLeft": "1",
+
+			"button4": "soprabolzano",
+			"button4Title": "Maso Ebnicher",
+			"button4Subtitle": "soprabolzano (BZ)",
+			"button4Description": "The strong temperature fluctuations, the breezes coming down from the Dolomite peaks, the sandy, well-drained soil. This is the ideal terrain to give life to the exceptional mineral and tropical notes of Müller Thurgau.",
+			"button4Altitude": "1221 above sea level",
+			"button4Grapes": "Müller Thurgau,Pinot Noir",
+			"button4Image": "/south-tyrol/section3/image3.webp",
+			"button4IsTextLeft": "0",
+
+			"mapTitle1": "South Tyrol",
+			"mapTitle2": "Trentino",
+
+			"overlayAltitude": "Altitude",
+			"overlayGrapes": "Grapes",
+
+			"additionalMapIcons": [
+				{ "title": "Bolzano", "icon": "none" },
+				{ "title": "Caldaro (BZ)", "icon": "icon" }
+			]
+		},
+		"section4": {
+			"title1": "A PACT OF",
+			"title2": "RESPONSIBILITY",
+			"description1": [
+				"Over the years, we’ve built strong, lasting partnerships with our 70 dedicated ",
+				"winegrowers ",
+				"across South Tyrol, grounded in ",
+				"honour ",
+				"and ",
+				"mutual ",
+				"trust."
+			],
+			"description1types": "n,i,n,i,n,i,n",
+			"description2": [
+				"This is why Kettmeir is now recognized as a cornerstone of South Tyrolean viticulture."
+			],
+			"description2types": "n"
+		},
+		"section5": {
+			"title": "Sustainability",
+			"slideTitle1": "Social",
+			"slideTitle2": "Environmental",
+			"slides": [
+				{
+					"title": "our suppliers",
+					"description": "Thanks to our support, winegrowers can continue practising heroic viticulture, cultivating vineyards in the steepest areas of South Tyrol where machines can’t operate."
+				},
+				{
+					"title": "The Masi",
+					"description": "We guarantee our winegrowers secure prospects in their Masi, the typical local South Tyrolean residences, which include the house and the surrounding land."
+				},
+				{
+					"title": "2030 Agenda",
+					"description": "We share with our winegrowers the commitment to treat the land according to the South Tyrolean Wine Consortium’s 2030 Agenda protocol."
+				},
+				{
+					"title": "integrated pest management",
+					"description": "In order to contribute to environmental protection, we also require that the suppliers adhere to strict integrated pest management protocols."
+				}
+			]
+		},
+		"section6": {
+			"title1": "k-weekend",
+			"title2": "K–Weekend",
+			"title3": "Winter",
+			"description1": "We’ve designed short yet unforgettable weekend itineraries to help you discover the wonders of South Tyrol. We have included many different experiences for different passions: from relaxation to sport, from food to local culture, supported by our partners on the ground.",
+			"description2": "Curious about Kettmeir’s weekend experiences?",
+			"description3": "Download our guide to get inspired.",
+			"download": "download",
+			"link1": "manifesto",
+			"link2": "experiences"
 		}
 	}
 }

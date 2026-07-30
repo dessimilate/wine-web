@@ -1,10 +1,10 @@
-import type { Metadata, NextPage } from 'next'
+import type { Metadata } from 'next'
 
 import { Manifesto } from '@/components/screens/manifesto/Manifesto'
 
 export const metadata: Metadata = {}
 
-const ManifestoPage: NextPage = () => {
+const ManifestoPage = () => {
 	return <Manifesto />
 }
 

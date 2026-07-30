@@ -4,8 +4,6 @@ import { useTranslations } from 'next-intl'
 
 import { SidebarLangChange } from '@/components/layouts/layout/sidebar/SidebarLangChange'
 
-import { NextComponentType } from '@/types/next-component.type'
-
 import { URLS } from '@/config/urls.config'
 
 import { useIsMixNormalStore } from '@/store/isMixNormal'
@@ -16,7 +14,7 @@ import { SidebarElement } from './SidebarElement'
 import { SidebarHomeButton } from './SidebarHome'
 import { SidebarSliderMenu } from './SidebarSliderMenu'
 
-const Sidebar: NextComponentType = () => {
+const Sidebar = () => {
 	const t = useTranslations('Sidebar')
 
 	const isMixNormal = useIsMixNormalStore(state => state.isMixNormal)

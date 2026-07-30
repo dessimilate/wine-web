@@ -3,11 +3,9 @@
 import { AnimatePresence, motion } from 'framer-motion'
 import { useEffect, useState } from 'react'
 
-import { NextComponentType } from '@/types/next-component.type'
-
 import Logo from '&/public/svg/logo-with-title.svg'
 
-const LoadingProvider: NextComponentType = () => {
+const LoadingProvider = () => {
 	const [isLoading, setIsLoading] = useState(true)
 
 	useEffect(() => {

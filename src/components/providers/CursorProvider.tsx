@@ -1,14 +1,11 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import { set } from 'lodash'
 import { useEffect, useRef, useState } from 'react'
-
-import { NextComponentType } from '@/types/next-component.type'
 
 import { cn } from '@/utils/cn'
 
-const CursorProvider: NextComponentType = () => {
+const CursorProvider = () => {
 	const [cursorPosition, setCursorPosition] = useState({ x: -100, y: -100 })
 	const [isHover, setIsHover] = useState(false)
 	const [avgSpeed, setAvgSpeed] = useState(0)

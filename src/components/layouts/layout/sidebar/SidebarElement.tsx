@@ -5,8 +5,6 @@ import { ReactNode, useEffect, useRef, useState } from 'react'
 
 import Link from '@/components/ui/Link'
 
-import { NextComponentType } from '@/types/next-component.type'
-
 import { useIsMixNormalStore } from '@/store/isMixNormal'
 
 import { cn } from '@/utils/cn'
@@ -19,11 +17,7 @@ interface SidebarElementProps {
 	forceHide?: boolean
 }
 
-const SidebarElement: NextComponentType<SidebarElementProps> = ({
-	children,
-	href,
-	forceHide
-}) => {
+const SidebarElement = ({ children, href, forceHide }: SidebarElementProps) => {
 	const lineOutDuration = 200 //ms
 	const lineAnimationDuration = 0.2 //s
 
@@ -60,7 +54,7 @@ const SidebarElement: NextComponentType<SidebarElementProps> = ({
 			<li className='leading-none text-nowrap'>{children}</li>
 			<motion.div
 				className={cn(
-					'absolute top-full h-0.25',
+					'absolute top-full h-px',
 					isMixNormal ? 'bg-second' : 'bg-second-inverted'
 				)}
 				animate={{ width: isHover && !forceHide ? '100%' : '0%' }}

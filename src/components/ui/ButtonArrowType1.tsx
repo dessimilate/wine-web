@@ -2,23 +2,17 @@
 
 import Link from '@/components/ui/Link'
 
-import { NextComponentType } from '@/types/next-component.type'
-
 import { cn } from '@/utils/cn'
 
 import Arrow from '&/public/svg/arrow.svg'
 
-interface IProps {
+interface IButtonProps {
 	text: string
 	href: string
 	withoutBg?: boolean
 }
 
-const ButtonArrowType1: NextComponentType<IProps> = ({
-	href,
-	text,
-	withoutBg
-}) => {
+const ButtonArrowType1 = ({ href, text, withoutBg }: IButtonProps) => {
 	return (
 		<Link
 			href={href}

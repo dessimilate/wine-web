@@ -1,15 +1,42 @@
 {
 	"Sidebar": {
 		"manifesto": "Manifesto",
-		"southTyrol": "Territorio",
+		"southTyrol": "Alto Adige",
 		"experiences": "Esperienze",
 		"contacts": "Contatti",
 		"sliderMenu": {
-			"traditionalMethod": "Metodo Tradizionale",
+			"traditionalMethod": "Metodo Classico",
 			"selection": "Selezione",
-			"classical": "Classico",
-			"title": "Wines"
+			"classical": "Classici",
+			"title": "Vini"
 		}
+	},
+	"Footer": {
+		"address": "Via delle Cantine, 4\n39052 Caldaro (BZ)\nItalia",
+		"email": "Aggiornamenti e contenuti esclusivi dal mondo\nKettmeir direttamente nella tua casella email.",
+		"copyright": "© 2026 KETTMEIR SpA socio unico HERITA MARZOTTO WINES SpA - Sede legale FOSSALTA DI\nPORTOGRUARO (VE) VIA ITA MARZOTTO 8 CAP 30025 - Codice fiscale e numero di iscrizione al Registro\nImprese 00717760243 - Partita IVA 00884040270",
+		"links": {
+			"home": "Home",
+			"manifesto": "Manifesto",
+			"southTyrol": "Alto Adige",
+			"traditionalMethod": "Metodo Classico",
+			"selection": "Selezione",
+			"classical": "Classici",
+			"experiences": "Esperienze",
+			"contacts": "Contatti"
+		},
+		"privacyRoles": {
+			"privacyPolicy": "privacy policy",
+			"cookiePolicy": "cookie policy",
+			"updateCookiePreferences": "aggiorna le preferenze sui cookie"
+		},
+		"socialMedia": {
+			"facebook": "facebook",
+			"instagram": "instagram"
+		}
+	},
+	"LinksComponent": {
+		"title": "CONTINUA LA VISITA"
 	},
 	"Home": {
 		"section1": {
@@ -21,58 +48,228 @@
 			"description5": "che rende",
 			"description6": "eccezionale",
 			"description7": "la nostra terra,",
-			"description8": "l’Alto Adige.",
+			"description8": "l'Alto Adige.",
 			"description9": "Dal 1919."
 		},
 		"section2": {
 			"title1": "L'eleganza stilistica",
 			"title2": "della montagna",
 			"description1": "Affascinati dal prestigioso potenziale del Metodo Classico,",
-			"description2": "portiamo la finezza delle bollicine altoatesina verso",
+			"description2": "portiamo la finezza delle bollicine altoatesine verso",
 			"description3": "orizzonti ancora inesplorati.",
 			"button": "Scopri il metodo classico"
 		},
 		"section3": {
 			"title1": "Il nostro tradizionale",
-			"title2": "alto adige",
+			"title2": "Alto Adige",
 			"description1": "Da sempre troviamo nella bellezza della nostra terra",
-			"description2": "l’ispirazione per valorizzarne la secolare tradizione vitivinicola",
+			"description2": "l'ispirazione per valorizzarne la secolare tradizione vitivinicola",
 			"description3": "e creare i nostri vini.",
 			"button": "Scopri il territorio"
 		},
 		"section4": {
 			"title1": "ESPERIENZE",
 			"title2": "E OSPITALITÀ",
-			"description1": "Scopri l’autenticità, l’eleganza e gli aspetti più sorprendenti",
-			"description2": "dell’Alto Adige con i live tour, le degustazioni e gli eventi",
+			"description1": "Scopri l'autenticità, l'eleganza e gli aspetti più sorprendenti",
+			"description2": "dell'Alto Adige con i live tour, le degustazioni e gli eventi",
 			"description3": "in programma nella nostra cantina.",
 			"button": "Vieni a trovarci"
 		}
 	},
 	"Manifesto": {
 		"section1": {
-			"title1": "Manifesto",
+			"title": "Manifesto",
 			"description1": "Kettmeir guarda lontano con radici profonde. Il nostro manifesto parla",
-			"description2": "del rispetto per il tempo e della forza di chi osa restando",
-			"description3": "fedele a sé stesso.",
-			"title2": "Ti accorgi",
-			"title3": "del valore delle cose",
-			"description4": "quando trovi il coraggio di metterle in discussione.",
-			"description5": "L’Alto Adige ce lo insegna, e noi dal 1919 lo mettiamo in pratica.",
-			"description6": "Con rispetto e audacia."
+			"description2": "del rispetto per il tempo e della forza di chi osa",
+			"description3": "restando fedele a sé stesso."
 		},
 		"section2": {
-			"description1": "È solo guardando le imponenti vette delle Dolomiti che possiamo cogliere le sfumature dei dolci pendii ricoperti di vigneti intorno a Caldaro.",
-			"description2": "È solo attraverso la sperimentazione enologica, caposaldo del nostro Manifesto, che possiamo tramandare il prestigio di antiche tradizioni, come quella del Metodo Classico. E renderle significative anche per la contemporaneità."
+			"title1": "Ti accorgi",
+			"title2": "del valore delle cose",
+			"titleDescription1": "quando trovi il coraggio di metterle in discussione.",
+			"titleDescription2": "L'Alto Adige ce lo insegna, e noi dal 1919 lo mettiamo in pratica.",
+			"titleDescription3": "Con rispetto e audacia.",
+			"description1": [
+				"È solo guardando le imponenti vette delle Dolomiti che possiamo cogliere le sfumature dei dolci pendii ricoperti di vigneti intorno a Caldaro."
+			],
+			"description1types": "n",
+			"description2": [
+				"È solo attraverso la sperimentazione enologica, caposaldo del nostro Manifesto, che possiamo tramandare il prestigio di antiche tradizioni, come quella del Metodo Classico. E renderle significative anche per la contemporaneità."
+			],
+			"description2types": "n"
 		},
 		"section3": {
-			"title": "La nostra storia",
-			"description1": "Anno di fondazione\/n della cantina",
-			"description2": "Kettmeir inizia a produrre spumanti con il Metodo Charmat",
-			"description3": "Kettmeir Entrata a far parte di HERITA MARZOTTO WINE ESTATES",
-			"description4": "Kettmeir dà inizio alla spumantizzazione con il Metodo Classico: nasce l’Athesis Brut",
-			"description5": "Prima annata del “1919” RISERVA EXTRA BRUT, affinato sui lieviti per almeno 5 anni",
-			"description6": "Prima annata dell’Athesis Brut vincitrice del premio “BEST ITALIAN SPARKLING WINE” by CSWWC"
+			"title1": "La nostra storia",
+			"milestones": [
+				{
+					"date": "1919",
+					"description": "Anno di fondazione della cantina"
+				},
+				{
+					"date": "1964",
+					"description": "Kettmeir inizia a produrre spumanti con il Metodo Charmat"
+				},
+				{
+					"date": "1986",
+					"description": "Kettmeir entra a far parte di HERITA MARZOTTO WINE ESTATES"
+				},
+				{
+					"date": "1992",
+					"description": "Kettmeir dà inizio alla spumantizzazione con il Metodo Classico: nasce Athesis Brut"
+				},
+				{
+					"date": "2011",
+					"description": "Prima annata del \"1919\" RISERVA EXTRA BRUT, affinato sui lieviti per almeno 5 anni"
+				},
+				{
+					"date": "2018",
+					"description": "Prima annata di Athesis Brut, vincitore del premio \"BEST ITALIAN SPARKLING WINE\" by CSWWC"
+				}
+			]
+		},
+		"section4": {
+			"title1": "DALLE VETTE",
+			"title2": "ALLA CANTINA",
+			"description1": [
+				"Siamo da sempre ",
+				"testimoni ",
+				"della profonda cultura vitivinicola dell'Alto Adige e delle favorevoli condizioni climatiche di questa terra."
+			],
+			"description1types": "n,i,n",
+			"description2": [
+				"Oggi la nostra è un'azienda all'avanguardia, capace di valorizzare vitigni autoctoni sia a valle sia in quota, producendo vini ",
+				"aromatici, eleganti ",
+				"e ",
+				"fedeli alla loro origine."
+			],
+			"description2types": "n,i,n,i"
+		},
+		"section5": {
+			"link1": "Alto Adige",
+			"link2": "Metodo Classico"
+		}
+	},
+	"SouthTyrol": {
+		"section1": {
+			"title": "Alto Adige",
+			"description1": "Scopri l'autenticità, l'eleganza e i tesori nascosti dell'Alto Adige",
+			"description2": "attraverso tour, degustazioni ed eventi locali.",
+			"description3": "Vivi il meglio della nostra regione e i vini raffinati che definiscono",
+			"description4": "l'Alto Adige."
+		},
+		"section2": {
+			"title1": "sfumature di un'identità",
+			"title2": "unica",
+			"description1": [
+				"All'ombra delle maestose Dolomiti, Patrimonio Mondiale UNESCO, prende forma lo spirito resiliente della vita di montagna. Qui, ",
+				"la natura è vasta, ricca ",
+				"e ",
+				"in continuo cambiamento, ",
+				"e plasma la quotidianità in infiniti modi."
+			],
+			"description1types": "n,i,n,i,n",
+			"description2": [
+				"Con vigneti che prosperano a diverse altitudini, l'Alto Adige è una terra radicata nell'agricoltura e, ancora più profondamente, nella viticoltura."
+			],
+			"description2types": "n"
+		},
+		"section3": {
+			"title1": "esplora",
+			"title2": "la nostra terra",
+			"description1": "Scopri i vigneti",
+			"description2": "dove crescono le nostre uve.",
+
+			"button1": "tutti i vigneti",
+
+			"button2": "pochi di salorno",
+			"button2Title": "Maso Reiner",
+			"button2Subtitle": "Pochi di Salorno (BZ)",
+			"button2Description": "I terreni sono calcarei, ricchi di scheletro, con una buona componente argillosa e sostanza organica. È su questo pendio che vengono coltivate le uve Pinot Nero, Chardonnay e Pinot Grigio.",
+			"button2Altitude": "350 - 500 m s.l.m.",
+			"button2Grapes": "Pinot Nero,Chardonnay,Pinot Grigio",
+			"button2Image": "/south-tyrol/section3/image1.webp",
+			"button2IsTextLeft": "0",
+
+			"button3": "castelvecchio/caldaro",
+			"button3Title": "Pinot Bianco",
+			"button3Subtitle": "Castelvecchio (BZ)",
+			"button3Description": "Castelvecchio è una delle zone più alte del comune di Caldaro. Situata a 700 metri sul livello del mare, si distingue per i suoi pendii ripidi, i terreni ricchi di porfido e l'esposizione a est. Qui vengono coltivati i vigneti di Pinot Bianco destinati ad Athesis Brut Metodo Classico, mentre i vigneti più in quota danno vita al raffinato Athesis Pinot Bianco.",
+			"button3Altitude": "700 m s.l.m.",
+			"button3Grapes": "Pinot Bianco",
+			"button3Image": "/south-tyrol/section3/image2.webp",
+			"button3IsTextLeft": "1",
+
+			"button4": "soprabolzano",
+			"button4Title": "Maso Ebnicher",
+			"button4Subtitle": "Soprabolzano (BZ)",
+			"button4Description": "Le forti escursioni termiche, le brezze che scendono dalle vette dolomitiche, il terreno sabbioso e ben drenato. È questo il terroir ideale per dare vita alle eccezionali note minerali e tropicali del Müller Thurgau.",
+			"button4Altitude": "1221 m s.l.m.",
+			"button4Grapes": "Müller Thurgau,Pinot Nero",
+			"button4Image": "/south-tyrol/section3/image3.webp",
+			"button4IsTextLeft": "0",
+
+			"mapTitle1": "Alto Adige",
+			"mapTitle2": "Trentino",
+
+			"overlayAltitude": "Altitudine",
+			"overlayGrapes": "Uve",
+
+			"additionalMapIcons": [
+				{ "title": "Bolzano", "icon": "none" },
+				{ "title": "Caldaro (BZ)", "icon": "icon" }
+			]
+		},
+		"section4": {
+			"title1": "UN PATTO DI",
+			"title2": "RESPONSABILITÀ",
+			"description1": [
+				"Nel corso degli anni abbiamo costruito collaborazioni solide e durature con i nostri 70 ",
+				"viticoltori ",
+				"dell'Alto Adige, fondate su ",
+				"onore ",
+				"e ",
+				"reciproca ",
+				"fiducia."
+			],
+			"description1types": "n,i,n,i,n,i,n",
+			"description2": [
+				"Per questo oggi Kettmeir è riconosciuta come un punto di riferimento della viticoltura altoatesina."
+			],
+			"description2types": "n"
+		},
+		"section5": {
+			"title": "Sostenibilità",
+			"slideTitle1": "Sociale",
+			"slideTitle2": "Ambientale",
+			"slides": [
+				{
+					"title": "i nostri fornitori",
+					"description": "Grazie al nostro supporto, i viticoltori possono continuare a praticare una viticoltura eroica, coltivando vigneti nelle zone più impervie dell'Alto Adige, dove le macchine non possono operare."
+				},
+				{
+					"title": "I Masi",
+					"description": "Garantiamo ai nostri viticoltori prospettive sicure nei loro Masi, le tipiche residenze altoatesine che comprendono la casa e i terreni circostanti."
+				},
+				{
+					"title": "Agenda 2030",
+					"description": "Condividiamo con i nostri viticoltori l'impegno a trattare la terra secondo il protocollo dell'Agenda 2030 del Consorzio Vini Alto Adige."
+				},
+				{
+					"title": "lotta integrata",
+					"description": "Per contribuire alla tutela dell'ambiente, richiediamo inoltre ai fornitori di aderire a rigorosi protocolli di lotta integrata."
+				}
+			]
+		},
+		"section6": {
+			"title1": "k-weekend",
+			"title2": "K-Weekend",
+			"title3": "Inverno",
+			"description1": "Abbiamo ideato brevi ma indimenticabili itinerari per il weekend, pensati per farti scoprire le meraviglie dell'Alto Adige. Abbiamo incluso esperienze diverse per passioni diverse: dal relax allo sport, dal cibo alla cultura locale, con il supporto dei nostri partner sul territorio.",
+			"description2": "Sei curioso di scoprire le esperienze Kettmeir per il weekend?",
+			"description3": "Scarica la nostra guida e lasciati ispirare.",
+			"download": "scarica",
+			"link1": "manifesto",
+			"link2": "esperienze"
 		}
 	}
 }

@@ -1,4 +1,4 @@
-export const waitForPageReady = (minDuration = 1000) => {
+export const waitForPageReady = (minDuration = 2000) => {
 	const timer = new Promise(resolve => setTimeout(resolve, minDuration))
 
 	const pageLoaded = new Promise(resolve => {

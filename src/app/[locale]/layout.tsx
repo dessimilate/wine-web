@@ -1,20 +1,19 @@
-import { NextIntlClientProvider, hasLocale } from 'next-intl'
+import { hasLocale } from 'next-intl'
 import { getMessages, setRequestLocale } from 'next-intl/server'
 import { Metadata } from 'next/dist/lib/metadata/types/metadata-interface'
 import { notFound } from 'next/navigation'
 import { PropsWithChildren } from 'react'
 
-import { MainProvider } from '@/components/providers/MainProvider'
-import { OverlayProvider } from '@/components/providers/OverlayProvider'
-import { TransitionProvider } from '@/components/providers/TransitionProvider'
+import { Layout } from '@/components/layouts/layout/Layout'
+import { AppProvider } from '@/components/providers'
 
 import { Locale } from '@/config/locales.constant'
 import { SITE_NAME } from '@/config/seo.constant'
 
-import { FlechaM } from '../fonts'
+import { FlechaM } from '../../styles/fonts'
 
-import './../globals.css'
 import { routing } from '@/i18n/routing'
+import '@/styles/globals.css'
 
 interface IProps {
 	params: Promise<{
@@ -46,15 +45,12 @@ export default async function LocaleLayout({
 	return (
 		<html lang={locale}>
 			<body className={FlechaM.className}>
-				<NextIntlClientProvider
+				<AppProvider
 					messages={messages}
 					locale={locale}
 				>
-					<TransitionProvider>
-						<OverlayProvider />
-						<MainProvider>{children}</MainProvider>
-					</TransitionProvider>
-				</NextIntlClientProvider>
+					<Layout>{children}</Layout>
+				</AppProvider>
 			</body>
 		</html>
 	)

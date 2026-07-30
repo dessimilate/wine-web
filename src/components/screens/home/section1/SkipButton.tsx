@@ -2,41 +2,54 @@
 
 import { motion, useAnimation } from 'framer-motion'
 import { useLenis } from 'lenis/react'
-import { useEffect } from 'react'
-
-import { NextComponentType } from '@/types/next-component.type'
+import { useEffect, useMemo } from 'react'
 
 import { cn } from '@/utils/cn'
 
 import Arrow from '&/public/svg/arrow.svg'
 
-interface IProps {
+interface ISkipButtonProps {
 	scroll: number
 }
 
-const SkipButton: NextComponentType<IProps> = ({ scroll }) => {
+const SkipButton = ({ scroll }: ISkipButtonProps) => {
 	const controls = useAnimation()
 	const lenis = useLenis()
 
 	useEffect(() => {
+		let mounted = true
+
 		const animate = async () => {
-			while (true) {
+			while (mounted) {
 				await controls.start({
 					y: '300%',
-					transition: { duration: 1.2, ease: 'easeInOut' }
+					transition: {
+						duration: 1.2,
+						ease: 'easeInOut'
+					}
 				})
+
+				if (!mounted) break
 
 				controls.set({ y: '-300%' })
 
 				await controls.start({
 					y: 0,
-					transition: { duration: 1.2, ease: 'easeInOut' }
+					transition: {
+						duration: 1.2,
+						ease: 'easeInOut'
+					}
 				})
 			}
 		}
 
 		animate()
-	}, [])
+
+		return () => {
+			mounted = false
+			controls.stop()
+		}
+	}, [controls])
 
 	const isHidden = scroll > 300
 

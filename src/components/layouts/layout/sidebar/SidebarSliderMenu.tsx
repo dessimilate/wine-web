@@ -3,8 +3,6 @@
 import { useTranslations } from 'next-intl'
 import { useState } from 'react'
 
-import { NextComponentType } from '@/types/next-component.type'
-
 import { URLS } from '@/config/urls.config'
 
 import { useIsMixNormalStore } from '@/store/isMixNormal'
@@ -14,7 +12,7 @@ import { cn } from '@/utils/cn'
 import Arrow from '&/public/svg/arrow.svg'
 import { SidebarElement } from './SidebarElement'
 
-const SidebarSliderMenu: NextComponentType = () => {
+const SidebarSliderMenu = () => {
 	const t = useTranslations('Sidebar')
 
 	const [isOpen, setIsOpen] = useState(false)

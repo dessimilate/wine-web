@@ -35,7 +35,8 @@
 		"@types/node": "^20",
 		"@types/react": "^19",
 		"@types/react-dom": "^19",
-		"prettier": "^3.6.2",
+		"jiti": "^2.7.0",
+		"prettier": "^3.9.6",
 		"prettier-plugin-tailwindcss": "^0.7.2",
 		"typescript": "^5"
 	}

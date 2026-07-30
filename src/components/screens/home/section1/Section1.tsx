@@ -1,9 +1,6 @@
 'use client'
 
-import { useTranslations } from 'next-intl'
 import { useEffect, useRef, useState } from 'react'
-
-import { NextComponentType } from '@/types/next-component.type'
 
 import { useIsMixNormalStore } from '@/store/isMixNormal'
 
@@ -11,11 +8,9 @@ import { Description } from './Description'
 import { Header } from './Header'
 import { SkipButton } from './SkipButton'
 
-const Section1: NextComponentType = () => {
-	const frameCount = 94
+const FRAME_COUNT = 94
 
-	const t = useTranslations('Home')
-
+const Section1 = () => {
 	const containerRef = useRef<HTMLDivElement>(null)
 	const canvasRef = useRef<HTMLCanvasElement>(null)
 
@@ -38,6 +33,7 @@ const Section1: NextComponentType = () => {
 		const drawFrame = (index: number) => {
 			context.clearRect(0, 0, canvas.width, canvas.height)
 			const image = loadedImages[index - 1]
+			if (!image) return
 
 			canvas.width = window.innerWidth
 			canvas.height = window.innerHeight
@@ -62,7 +58,7 @@ const Section1: NextComponentType = () => {
 			const progress = Math.max(0, Math.min(1, -top / scrollHeight))
 
 			const lastFrame = currentFrame
-			currentFrame = Math.round((frameCount - 1) * progress) + 1
+			currentFrame = Math.round((FRAME_COUNT - 1) * progress) + 1
 
 			if (lastFrame !== currentFrame && !isInit) drawFrame(currentFrame)
 
@@ -78,7 +74,7 @@ const Section1: NextComponentType = () => {
 		handleScroll(true)
 
 		// Preload images
-		for (let i = 1; i <= frameCount; i++) {
+		for (let i = 1; i <= FRAME_COUNT; i++) {
 			const img = new Image()
 			img.src = `/home/images-sequence/wine-${String(i).padStart(2, '0')}.webp`
 			img.onload = () => {

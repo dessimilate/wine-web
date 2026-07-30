@@ -1,52 +1,34 @@
+import { useTranslations } from 'next-intl'
+
 import Link from '@/components/ui/Link'
-
-import { NextComponentType } from '@/types/next-component.type'
-
-import { URLS } from '@/config/urls.config'
 
 import { cn } from '@/utils/cn'
 
+import { FlechaBronzeaM } from '@/styles/fonts'
+
 import Logo from '&/public/svg/logo.svg'
+import { LINKS, PRIVACY_ROLES, SOCIAL_MEDIA } from './footer-data'
 import { SidebarElement } from './sidebar/SidebarElement'
-import { FlechaBronzeaM } from '@/app/fonts'
 
-const Footer: NextComponentType = () => {
-	const links = [
-		{ text: 'Home', href: URLS.HOME },
-		{ text: 'Manifesto', href: URLS.MANIFESTO },
-		{ text: 'South Tyrol', href: URLS.SOUTH_TYROL },
-		{ text: 'Traditional Method', href: URLS.TRADITIONAL_METHOD },
-		{ text: 'Selection', href: URLS.SELECTION },
-		{ text: 'Classical', href: URLS.CLASSICAL },
-		{ text: 'Experiences', href: URLS.EXPERIENCES },
-		{ text: 'Contacts', href: URLS.CONTACTS }
-	]
-
-	const privacyRoles = [
-		{ text: 'privacy policy', href: URLS.PRIVACY_POLICY },
-		{ text: 'cookie policy', href: URLS.COOKIE_POLICY },
-		{ text: 'update cookie preferences', href: URLS.UPDATE_COOKIE_PREFERENCES }
-	]
-
-	const socialMedia = [
-		{ text: 'facebook', href: URLS.FACEBOOK },
-		{ text: 'instagram', href: URLS.INSTAGRAM }
-	]
+const Footer = () => {
+	const t = useTranslations('Footer')
 
 	return (
 		<footer className='px-[6svw] pt-[11svh] pb-[6svh]'>
 			<div className='grid grid-cols-3 items-center gap-5 py-10'>
+				{/* Links **/}
 				<div className='flex h-fit flex-wrap items-center justify-center gap-x-4 gap-y-2'>
-					{links.map(el => (
+					{LINKS.map(el => (
 						<SidebarElement
-							key={el.text}
+							key={el.labelKey}
 							href={el.href}
 						>
-							{el.text}
+							{t(el.labelKey)}
 						</SidebarElement>
 					))}
 				</div>
 
+				{/* Address **/}
 				<div className='flex w-full flex-col items-center gap-5'>
 					<Logo className='w-40' />
 					<p
@@ -55,19 +37,15 @@ const Footer: NextComponentType = () => {
 							FlechaBronzeaM.className
 						)}
 					>
-						Via delle Cantine, 4<br />
-						39052 Caldaro (BZ)
-						<br />
-						italia
+						{t('address')}
 					</p>
 				</div>
 
+				{/* Subscribe **/}
 				<div>
-					<p>
-						Updates and exclusive content from the world of Kettmeir directly to
-						your inbox.
-					</p>
+					<p>{t('email')}</p>
 					<input
+						name='subscribe'
 						type='email'
 						placeholder='Your email address'
 					/>
@@ -75,33 +53,33 @@ const Footer: NextComponentType = () => {
 			</div>
 
 			<div className='grid grid-cols-3'>
+				{/* Privacy **/}
 				<div className='flex flex-col items-center'>
-					{privacyRoles.map(el => (
+					{PRIVACY_ROLES.map(el => (
 						<Link
-							key={el.text}
+							key={el.labelKey}
 							className='text-sm leading-[1.1] uppercase'
 							href={el.href}
 						>
-							{el.text}
+							{t(el.labelKey)}
 						</Link>
 					))}
 				</div>
 
+				{/* Copyright **/}
 				<div className='text-center text-sm leading-[1.1]'>
-					© 2026 KETTMEIR SpA socio unico HERITA MARZOTTO WINES SpA - Sede
-					legale FOSSALTA DI PORTOGRUARO (VE) VIA ITA MARZOTTO 8 CAP 30025 -
-					Codice fiscale e n.iscr. al Registro Imprese 00717760243 - Partita IVA
-					00884040270
+					{t('copyright')}
 				</div>
 
+				{/* Social Media **/}
 				<div className='flex flex-col items-center'>
-					{socialMedia.map(el => (
+					{SOCIAL_MEDIA.map(el => (
 						<Link
-							key={el.text}
+							key={el.labelKey}
 							className='text-sm leading-[1.1] uppercase'
 							href={el.href}
 						>
-							{el.text}
+							{t(el.labelKey)}
 						</Link>
 					))}
 				</div>

@@ -2,27 +2,30 @@
 
 import { MotionProps, motion } from 'framer-motion'
 
-import { NextComponentType } from '@/types/next-component.type'
-
 import { cn } from '@/utils/cn'
 
-import { FlechaBronzeaM } from '@/app/fonts'
+import { FlechaBronzeaM } from '@/styles/fonts'
 
-interface IProps {
-	defaultMotionProps?: MotionProps
+const defaultMotionProps: MotionProps = {
+	initial: { opacity: 0, y: '50%' },
+	whileInView: { opacity: 1, y: '0%' },
+	viewport: { once: true, amount: 0.4, margin: '-20%' },
+	transition: { duration: 0.5, ease: 'easeOut' }
+}
+
+interface IHeaderProps {
 	topHeaderX: number
 	bottomHeaderX: number
 	topHeader: string
 	bottomHeader: string
 }
 
-const HeaderTranslateX: NextComponentType<IProps> = ({
-	defaultMotionProps = {},
+const HeaderTranslateX = ({
 	topHeaderX,
 	bottomHeaderX,
 	topHeader,
 	bottomHeader
-}) => {
+}: IHeaderProps) => {
 	return (
 		<div className={cn('mb-8 text-9xl uppercase', FlechaBronzeaM.className)}>
 			<motion.div
