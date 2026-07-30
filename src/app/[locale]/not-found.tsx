@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {}
 
-const NotFoundPage = () => {
+const NotFound = () => {
 	return (
 		<div>
 			The page does not exist or has not yet been created (this is a practice
@@ -11,4 +11,4 @@ const NotFoundPage = () => {
 	)
 }
 
-export default NotFoundPage
+export default NotFound
